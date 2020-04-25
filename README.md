@@ -1,6 +1,6 @@
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 * This project is the Assignment 4 of CMPSC 185 by Yujie Wang (GitHub ID: WilsonWYJ).
-* Repo:
+* Repo: https://github.com/WilsonWYJ/cs185_asg4
 * Website: 
 
 ## Available Scripts
