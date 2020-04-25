@@ -5,6 +5,7 @@ export class Projects extends Component {
         return (
             <div>
                 <h1>Projects</h1>
+                <p>Content goes here</p>
             </div>
         )
     }

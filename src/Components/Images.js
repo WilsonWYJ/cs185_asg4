@@ -5,6 +5,7 @@ export class Images extends Component {
         return (
             <div>
                 <h1>Images</h1>
+                <p>Content goes here</p>
             </div>
         )
     }
