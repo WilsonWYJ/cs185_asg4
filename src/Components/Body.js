@@ -16,7 +16,8 @@ export class Body extends Component {
     else if(activeTab === 4)
       return <Projects/>
     else if(activeTab === 5)
-      return 'https://github.com/WilsonWYJ'
+      window.location.href = 'https://github.com/WilsonWYJ'
+      // return this.props.router.push({pathname: 'https://github.com/WilsonWYJ'})
   }
   render() {
     return (this.displayContent());
