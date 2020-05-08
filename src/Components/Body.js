@@ -3,6 +3,7 @@ import Home from './Home'
 import Images from './Images'
 import Videos from './Videos'
 import Projects from './Projects'
+import Messages from './Messages'
 
 export class Body extends Component {
   displayContent = () => {
@@ -16,8 +17,11 @@ export class Body extends Component {
     else if(activeTab === 4)
       return <Projects/>
     else if(activeTab === 5)
+      return <Messages/>
+    else if(activeTab === 6)
       window.location.href = 'https://github.com/WilsonWYJ'
       // return this.props.router.push({pathname: 'https://github.com/WilsonWYJ'})
+    
   }
   render() {
     return (this.displayContent());
