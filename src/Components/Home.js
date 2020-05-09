@@ -6,7 +6,7 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <h1>About Me</h1>
+                <h1>Hi! Welcome to Yujie Wang's Website!</h1>
                 <div style={{display: "flex"}}>
                     
                     <div>
