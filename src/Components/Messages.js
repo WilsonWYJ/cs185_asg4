@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import config from '../config';
 import firebase from 'firebase';
 import { motion } from "framer-motion";
+import ScrollUpButton from "react-scroll-up-button";
 
 class Messages extends Component {
     constructor(props) {
@@ -187,6 +188,7 @@ class Messages extends Component {
               </div>
             </motion.div>
           </div>
+          <ScrollUpButton />
         </React.Fragment>
       );
     }
