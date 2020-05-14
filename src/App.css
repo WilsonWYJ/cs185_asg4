@@ -111,3 +111,29 @@ label {
 .card-text-des {
   color: gray;
 }
+
+.movie {
+	width: 350px;
+	padding: 1em;
+  cursor: pointer;
+  -webkit-filter: brightness(100%);
+}
+.movie:hover {
+  -webkit-filter: brightness(60%);
+	transition: all 1s ease;
+}
+.movie-lightbox {
+	display: flex;
+	width: 1000px;
+	height: 400px;
+}
+.movie-lightbox-img {
+	height: 400px;
+}
+.movie-lightbox-des {
+  padding-left: 10px;
+}
+.movie-lightbox-des h2 {
+  text-align: center;
+}
+
