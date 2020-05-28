@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/cs185_asg4/static/css/main.2c81119d.chunk.css",
-    "main.js": "/cs185_asg4/static/js/main.13ef4f39.chunk.js",
-    "main.js.map": "/cs185_asg4/static/js/main.13ef4f39.chunk.js.map",
+    "main.css": "/cs185_asg4/static/css/main.dc6812ed.chunk.css",
+    "main.js": "/cs185_asg4/static/js/main.a2537d96.chunk.js",
+    "main.js.map": "/cs185_asg4/static/js/main.a2537d96.chunk.js.map",
     "runtime-main.js": "/cs185_asg4/static/js/runtime-main.7fc52dc4.js",
     "runtime-main.js.map": "/cs185_asg4/static/js/runtime-main.7fc52dc4.js.map",
-    "static/css/2.ccab356c.chunk.css": "/cs185_asg4/static/css/2.ccab356c.chunk.css",
-    "static/js/2.dba207d7.chunk.js": "/cs185_asg4/static/js/2.dba207d7.chunk.js",
-    "static/js/2.dba207d7.chunk.js.map": "/cs185_asg4/static/js/2.dba207d7.chunk.js.map",
+    "static/js/2.694930cc.chunk.js": "/cs185_asg4/static/js/2.694930cc.chunk.js",
+    "static/js/2.694930cc.chunk.js.map": "/cs185_asg4/static/js/2.694930cc.chunk.js.map",
     "index.html": "/cs185_asg4/index.html",
-    "precache-manifest.7c10713504d1cf7df672d31d8de520c1.js": "/cs185_asg4/precache-manifest.7c10713504d1cf7df672d31d8de520c1.js",
+    "precache-manifest.9b6cf4262abb4733065e471ac1bac089.js": "/cs185_asg4/precache-manifest.9b6cf4262abb4733065e471ac1bac089.js",
     "service-worker.js": "/cs185_asg4/service-worker.js",
-    "static/css/2.ccab356c.chunk.css.map": "/cs185_asg4/static/css/2.ccab356c.chunk.css.map",
-    "static/css/main.2c81119d.chunk.css.map": "/cs185_asg4/static/css/main.2c81119d.chunk.css.map",
-    "static/js/2.dba207d7.chunk.js.LICENSE.txt": "/cs185_asg4/static/js/2.dba207d7.chunk.js.LICENSE.txt",
+    "static/css/main.dc6812ed.chunk.css.map": "/cs185_asg4/static/css/main.dc6812ed.chunk.css.map",
+    "static/js/2.694930cc.chunk.js.LICENSE.txt": "/cs185_asg4/static/js/2.694930cc.chunk.js.LICENSE.txt",
     "static/media/an125.jpg": "/cs185_asg4/static/media/an125.8fe60ce9.jpg",
     "static/media/burger.mp4": "/cs185_asg4/static/media/burger.8acaecac.mp4",
     "static/media/coderecipe.png": "/cs185_asg4/static/media/coderecipe.0193382d.png",
@@ -38,9 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7fc52dc4.js",
-    "static/css/2.ccab356c.chunk.css",
-    "static/js/2.dba207d7.chunk.js",
-    "static/css/main.2c81119d.chunk.css",
-    "static/js/main.13ef4f39.chunk.js"
+    "static/js/2.694930cc.chunk.js",
+    "static/css/main.dc6812ed.chunk.css",
+    "static/js/main.a2537d96.chunk.js"
   ]
 }
