@@ -54,7 +54,7 @@ class Messages extends Component {
       var time = new Date().getTime();
       var date = new Date(time).toString();
   
-      if (uid && name && message && viewable=="Yes") {
+      if (uid && name && message && viewable==="Yes") {
         const { letters } = this.state;
         const devIndex = letters.findIndex(data => {
           return data.uid === uid;
@@ -66,14 +66,14 @@ class Messages extends Component {
         letters[devIndex].email = email;
         letters[devIndex].date = date;
         this.setState({ letters });
-      } else if (name && message && viewable=="Yes") {
+      } else if (name && message && viewable==="Yes") {
         const uid = new Date().getTime().toString();
         const { letters } = this.state;
         letters.push({ uid, name, description, message, viewable, email, date });
         this.setState({ letters });
       }
 
-      if (uid && name && message && viewable=="No") {
+      if (uid && name && message && viewable==="No") {
         const { privateLetters } = this.state;
         const devIndex = privateLetters.findIndex(data => {
           return data.uid === uid;
@@ -85,7 +85,7 @@ class Messages extends Component {
         privateLetters[devIndex].email = email;
         privateLetters[devIndex].date = date;
         this.setState({ privateLetters });
-      } else if (name && message && viewable=="No") {
+      } else if (name && message && viewable==="No") {
         const uid = new Date().getTime().toString();
         const { privateLetters } = this.state;
         privateLetters.push({ uid, name, description, message, viewable, email, date });
