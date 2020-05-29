@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import ImageGrid from './ImageGrid';
 import Popup from "reactjs-popup";
 import config from '../config';
+import ScrollUpButton from "react-scroll-up-button";
 const axios = require('axios');
 const firebase = require('firebase')
 
@@ -197,6 +198,7 @@ function Movies(props) {
                     {lists != null && lists[currentList] != null && count > movies.length && <button className="btn-load" onClick={() => load()}>
                         Load More
                     </button>}
+					<ScrollUpButton/>
                 </div>
             );
         }
