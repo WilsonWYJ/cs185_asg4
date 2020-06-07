@@ -58,10 +58,14 @@ export class App extends Component {
       },
       {
         id: 6,
-        title: 'Messages'
+        title: 'Graph'
       },
       {
         id: 7,
+        title: 'Messages'
+      },
+      {
+        id: 8,
         title: 'My GitHub Page'
       }
     ]
