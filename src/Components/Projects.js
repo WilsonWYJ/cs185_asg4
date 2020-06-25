@@ -20,7 +20,7 @@ export class Projects extends Component {
                 </div>
                 <div class="project">
                     <img src={coderecipe}/>
-                    <span>CodeRecipe: The website that helps students to learn programming using the latest and unprecedented methods</span>
+                    <span><a href="https://coderecipe.cn">CodeRecipe</a>: The website that helps students to learn programming using the latest and unprecedented methods</span>
                 </div>
                 <ScrollUpButton />
             </div>
